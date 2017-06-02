@@ -1,0 +1,24 @@
+{
+  "name": "onboardiq_app-review",
+  "buildpacks": [
+    {
+      "url": "https://github.com/evilmartians/heroku-buildpack-static"
+    },
+    {
+      "url": "https://github.com/heroku/exec-buildpack"
+    }
+  ],
+  "formation": [
+    {
+      "process": "web",
+      "size": "hobby",
+      "quantity": 1
+    }
+  ],
+  "scripts": {
+  },
+  "env": {
+  },
+  "addons": [
+  ]
+}

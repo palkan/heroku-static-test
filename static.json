@@ -1,0 +1,19 @@
+{
+  "root": "/app/build/",
+  "encoding": "UTF-8",
+  "clean_urls": false,
+  "headers": {
+    "/index.html": {
+      "Cache-Control": "no-store, no-cache"
+    },
+    "/favicon-*": {
+      "Cache-Control": "no-store, no-cache"
+    },
+    "/apple-touch-icon.png": {
+      "Cache-Control": "no-store, no-cache"
+    },
+    "/js/**": {
+      "Cache-Control": "public, max-age=512000"
+    }
+  }
+}
