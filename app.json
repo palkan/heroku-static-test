@@ -1,5 +1,5 @@
 {
-  "name": "onboardiq_app-review",
+  "name": "static-buildpack-test",
   "buildpacks": [
     {
       "url": "https://github.com/evilmartians/heroku-buildpack-static"
