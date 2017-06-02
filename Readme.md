@@ -15,3 +15,15 @@ open http://localhost:8081
 
 # Connect to the running container
 docker exec -it hstatic bash
+```
+
+### Benchmarking
+
+To run benchmarks you have to install [wrk](https://github.com/wg/wrk).
+
+And then run:
+
+
+```sh
+wrk -t4 -c100 -d1h -s script.lua http://localhost:8081
+```
